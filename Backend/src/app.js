@@ -24,7 +24,7 @@ app.use(
   })
 );
 
-console.log(process.env.ALLOWED_SITE , " process.env.ALLOWED_SITE");
+console.log(process.env.ALLOWED_ORIGINS , " process.env.ALLOWED_SITE");
 
 app.use("/api/users", userRouter);
 app.use("/api/resumes", resumeRouter);
