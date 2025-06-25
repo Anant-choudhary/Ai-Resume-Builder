@@ -16,7 +16,7 @@ const corsOptions = {
     if (!origin) return callback(null, true);
     
     const allowedOrigins = [
-      process.env.ALLOWED_SITE,
+      'https://ai-resume-builder-seven-beta.vercel.app',
       'http://localhost:3000',
       'http://localhost:5173', // Vite default port
       'http://localhost:4173'  // Vite preview port
@@ -54,7 +54,7 @@ app.use(cookieParser());
 
 // Debug logging
 console.log('ALLOWED_SITE:', process.env.ALLOWED_SITE);
-console.log('Environment:', process.env.NODE_ENV);
+//console.log('Environment:', process.env.NODE_ENV);
 
 app.use("/api/users", userRouter);
 app.use("/api/resumes", resumeRouter);
