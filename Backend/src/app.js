@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: [process.env.ALLOWED_ORIGINS],
+    origin: 'https://ai-resume-builder-seven-beta.vercel.app/',
     credentials: true,
   })
 );
