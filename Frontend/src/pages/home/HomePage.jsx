@@ -13,10 +13,10 @@ function HomePage() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const handleClick = () => {
-    window.open(
-      "https://github.com/sahidrajaansari/Ai-Resume-Builder",
-      "_blank"
-    );
+    // window.open(
+    //   "https://github.com/sahidrajaansari/Ai-Resume-Builder",
+    //   "_blank"
+    // );
   };
 
   useEffect(() => {
