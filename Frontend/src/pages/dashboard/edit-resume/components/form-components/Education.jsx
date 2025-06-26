@@ -82,7 +82,7 @@ function Education({ resumeInfo, enanbledNext }) {
       <p>Add Your educational details</p>
 
       <div>
-        {educationalList.map((item, index) => (
+        {educationalList?.map((item, index) => (
           <div key={index}>
             <div className="grid grid-cols-2 gap-3 border p-3 my-5 rounded-lg">
               <div className="col-span-2">

@@ -82,7 +82,7 @@ function Skills({ resumeInfo, enanbledNext }) {
       <p>Add Your top professional key skills</p>
 
       <div>
-        {skillsList.map((item, index) => (
+        {skillsList?.map((item, index) => (
           <div
             key={index}
             className="flex justify-between mb-2 border rounded-lg p-3 "

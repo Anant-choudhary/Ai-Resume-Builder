@@ -119,7 +119,7 @@ function Summary({ resumeInfo, enanbledNext, enanbledPrev }) {
         </form>
       </div>
 
-      {aiGeneratedSummeryList && (
+      {aiGeneratedSummeryList?.length > 0 && (
         <div className="my-5">
           <h2 className="font-bold text-lg">Suggestions</h2>
           {aiGeneratedSummeryList?.map((item, index) => (
